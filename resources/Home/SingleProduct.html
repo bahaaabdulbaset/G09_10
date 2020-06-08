@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Product</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <style>
+        .a-no-link {
+            border: none !important;
+            text-decoration: none !important;
+            color: black !important;
+        }
+    </style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Categories
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Recommendations</a>
+            </li>
+        </ul>
+        <form class="form-inline ">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <a href="#">
+            <button class="btn btn-outline-info ml-5">Login</button>
+        </a>
+    </div>
+</nav>
+
+
+<div class="jumbotron jumbotron-fluid bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-10">
+                <h3 class="display-4">
+                    Product Name Details
+                </h3>
+                <hr>
+            </div>
+            <div class="col-12 col-lg-2">
+                <div class="text-right">
+                    <img src="book.jpg"
+                         alt="Logo of the Company"
+                         height="70"
+                         class="rounded w-100">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 mt-lg-0">
+            <div class="col-12">
+                <p class="m-0">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur dicta eius laboriosam
+                    laudantium modi nihil officiis quisquam reiciendis, suscipit vel! Commodi magni obcaecati, quo sed
+                    tempora totam ut vitae voluptates.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-md-8">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h4 class="font-weight-bold">
+                        Product Name
+                    </h4>
+                    <hr>
+                    <ul class="list-unstyled m-0 p-0">
+                        <li>
+                            <span class="mr-1">Price:</span>
+                            <span>999.99$</span>
+                        </li>
+                        <li>
+                            <span class="mr-1">Discount:</span>
+                            <span>20.5%</span>
+                        </li>
+                        <li>
+                            <span class="mr-1">Price after Discount:</span>
+                            <span>888.88$</span>
+                        </li>
+                        <li>
+                            <span class="mr-1">Remaining in Stock:</span>
+                            <span>555$</span>
+                        </li>
+                        <li>
+                            <span class="mr-1">Age Categories:</span>
+                            <span>Male, Female</span>
+                        </li>
+                        <li>
+                            <span class="mr-1">Categories:</span>
+                            <span>
+                                <a href="#">Category 01</a>,
+                                <a href="#" class="ml-1">Category 02</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mt-3 mt-md-0">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="book.jpg"
+                         width="100%" height="200">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link a-no-link font-weight-bold" type="button"
+                                    data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                Other Specific Details
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="m-0">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                probably haven't heard of them accusamus labore sustainable VHS.
+                            </p>
+
+                            <p class="m-0 mt-2">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                probably haven't heard of them accusamus labore sustainable VHS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link a-no-link font-weight-bold collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false"
+                                    aria-controls="collapseTwo">
+                                Product Description
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="m-0">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                probably haven't heard of them accusamus labore sustainable VHS.
+                            </p>
+
+                            <p class="m-0 mt-2">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                                single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                                beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                                lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                                probably haven't heard of them accusamus labore sustainable VHS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link a-no-link font-weight-bold collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                More Images on the Product
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                         data-parent="#accordionExample">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-2 mx-auto mt-2">
+                                    <img src="book.jpg"
+                                         alt="" class="rounded img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h4 class="m-0 text-center font-weight-bold">
+                        Recommended Products
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12 col-md-4">
+            <div class="card shadow">
+                <img src="book.jpg" class="card-img-top" width="170" height="170" alt="">
+                <div class="card-body">
+                    <h5 class="text-center m-0 font-weight-bold">
+                        Product Name
+                    </h5>
+                    <p class="text-center mx-0 my-1">
+                        <span class="badge badge-success badge-pill">999.99$</span>
+                        <span class="badge badge-danger badge-pill">-20%</span>
+                        <span class="badge badge-info badge-pill">NEW</span>
+                    </p>
+                    <p class="text-center mx-0 my-1">
+                        <span class="badge badge-warning badge-pill">Kids</span>
+                        <span class="badge badge-warning badge-pill">Men</span>
+                        <span class="badge badge-warning badge-pill">Women</span>
+                    </p>
+                    <p class="text-left text-truncate mx-0 my-1">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officiis?
+                    </p>
+                    <div class="text-center">
+                        <button class="btn btn-secondary btn-sm">Details</button>
+                        <button class="btn btn-success btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mt-3 mt-md-0">
+            <div class="card shadow">
+                <img src="book.jpg" class="card-img-top" width="170" height="170" alt="">
+                <div class="card-body">
+                    <h5 class="text-center m-0 font-weight-bold">
+                        Product Name
+                    </h5>
+                    <p class="text-center mx-0 my-1">
+                        <span class="badge badge-success badge-pill">999.99$</span>
+                        <span class="badge badge-danger badge-pill">-20%</span>
+                        <span class="badge badge-info badge-pill">NEW</span>
+                    </p>
+                    <p class="text-center mx-0 my-1">
+                        <span class="badge badge-warning badge-pill">Kids</span>
+                        <span class="badge badge-warning badge-pill">Men</span>
+                        <span class="badge badge-warning badge-pill">Women</span>
+                    </p>
+                    <p class="text-left text-truncate mx-0 my-1">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officiis?
+                    </p>
+                    <div class="text-center">
+                        <button class="btn btn-secondary btn-sm">Details</button>
+                        <button class="btn btn-success btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-4 mt-3 mt-md-0">
+            <div class="card shadow">
+                <img src="book.jpg" class="card-img-top" width="170" height="170" alt="">
+                <div class="card-body">
+                    <h5 class="text-center m-0 font-weight-bold">
+                        Product Name
+                    </h5>
+                    <p class="text-center mx-0 my-1">
+                        <span class="badge badge-success badge-pill">999.99$</span>
+                        <span class="badge badge-danger badge-pill">-20%</span>
+                        <span class="badge badge-info badge-pill">NEW</span>
+                    </p>
+                    <p class="text-center mx-0 my-1">
+                        <span class="badge badge-warning badge-pill">Kids</span>
+                        <span class="badge badge-warning badge-pill">Men</span>
+                        <span class="badge badge-warning badge-pill">Women</span>
+                    </p>
+                    <p class="text-left text-truncate mx-0 my-1">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, officiis?
+                    </p>
+                    <div class="text-center">
+                        <button class="btn btn-secondary btn-sm">Details</button>
+                        <button class="btn btn-success btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron jumbotron-fluid mt-0 mb-0 bg-info text-white mt-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <p style="font-weight: bold">Quick Links</p>
+                <hr>
+                <p>&checkmark; About Us</p>
+                <p>&checkmark; Contact Us</p>
+                <p>&checkmark; Customer service</p>
+                <p>&checkmark; Help</p>
+                <p>&checkmark; FAQ</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p style="font-weight: bold">Contact Us</p>
+                <hr>
+                <p>&checkmark; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque earum ex fuga hic optio
+                    quas!</p>
+                <p>&phone; 01090572176</p>
+                <p>&phone; 01090572176</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p style="font-weight: bold">Top Searches</p>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p style="font-weight: bold">Follow Us</p>
+                <hr>
+                <p>&checkmark;  Facebook</p>
+                <p>&checkmark; Twitter</p>
+                <p>&checkmark; Instagram</p>
+            </div>
+        </div>
+        <div class="row fixed-bottom ml-3">
+            <div class="col-3">
+                <h6 class="display-5">&copy; All rights are reserved</h6>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
